@@ -13,7 +13,7 @@ return new class extends Migration
             $table->timestamps();
             $table->date('startdate');
             $table->string('name');
-            $table->strining('doma');
+            $table->string('domain');
             $table->string('status');
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')
